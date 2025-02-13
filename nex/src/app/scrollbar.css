@@ -1,0 +1,28 @@
+.scrollbar-hide {
+  overflow-y: auto;
+}
+
+/* Anchura del scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Color del scrollbar en modo claro */
+.scrollbar-hide::-webkit-scrollbar-thumb {
+  background-color: rgb(233, 233, 233);
+  border-radius: 4px;
+}
+
+/* Cambio de color al pasar el cursor sobre el scrollbar */
+.scrollbar-hide::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+/* Color del scrollbar en modo oscuro */
+.dark .scrollbar-hide::-webkit-scrollbar-thumb {
+  background-color: hsl(0 0% 14.9%);
+}
+
+.dark .scrollbar-hide::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(0 0% 14.9%);
+}
